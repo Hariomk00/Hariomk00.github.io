@@ -109,6 +109,88 @@
   transform: scale(1.1);
 }
 
+/* new lines */
+@media (max-width: 600px) {
+  /* Adjust text size for mobile */
+  .about-mf .box-shadow-full {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .about-mf .about-img img {
+    margin-left: 0;
+    width: 100%; /* Make the image responsive */
+  }
+
+  #typing-animation {
+    font-size: 20px; /* Reduce font size for smaller screens */
+  }
+
+  .progress-bar {
+    height: .5rem; /* Smaller progress bars */
+  }
+
+  .hero {
+    background-size: cover; /* Ensure hero images are responsive */
+  }
+
+  /* Navigation tweaks for mobile */
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-brand {
+    font-size: 24px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .about-mf .box-shadow-full {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .about-mf .about-img img {
+    margin-left: 5px;
+    width: 80%; /* Adjust image size for tablets */
+  }
+
+  .skill-mf .progress {
+    margin: .4rem 0 1rem 0; /* Adjust progress bar spacing */
+  }
+
+  .navbar-brand {
+    font-size: 28px;
+  }
+
+  .hero h1 {
+    font-size: 30px; /* Adjust hero text size */
+  }
+}
+
+@media (min-width: 1024px) {
+  .about-mf .box-shadow-full {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  #typing-animation {
+    font-size: 36px; /* Larger font size for bigger screens */
+  }
+
+  .progress-bar {
+    height: .8rem; /* Larger progress bars for desktop */
+  }
+
+  .hero h1 {
+    font-size: 50px; /* Adjust hero text size */
+  }
+
+  .navbar-brand {
+    font-size: 32px;
+  }
+}
 
 </style>
 
